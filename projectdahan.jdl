@@ -1,0 +1,43 @@
+application {
+  config {
+    applicationType monolith
+    authenticationType jwt
+    baseName projectdahan
+    blueprints []
+    buildTool maven
+    cacheProvider ehcache
+    clientFramework angularX
+    clientPackageManager npm
+    clientTheme superhero
+    clientThemeVariant dark
+    creationTimestamp 1677634101847
+    databaseType sql
+    devDatabaseType h2Disk
+    dtoSuffix DTO
+    enableGradleEnterprise false
+    enableHibernateCache true
+    enableSwaggerCodegen false
+    enableTranslation false
+    gradleEnterpriseHost ""
+    jhiPrefix jhi
+    jhipsterVersion "7.9.3"
+    jwtSecretKey "ZTNiYzNlZjhlZDc1OGZhZGVlYTY1ODdiZTYwNGM1YzU2ZjJlMzNkNjgwZmQyZDY2ZmVlNDM2N2E2OWJmOGFkOTI3NGNlN2IxYjI0YTdkMGZjMjRkMDZiMmYxOGRhNTE3YWQyZjRmMDBjMzkwMzM1MGZhMDA2NTRhZWJiYjU0OWU="
+    languages [en, fr]
+    messageBroker false
+    microfrontend false
+    microfrontends []
+    nativeLanguage en
+    otherModules []
+    packageName com.mycompany.myapp
+    prodDatabaseType mysql
+    reactive false
+    serverPort 8080
+    serviceDiscoveryType no
+    skipClient false
+    skipUserManagement false
+    testFrameworks [cypress]
+    websocket false
+    withAdminUi true
+  }
+}
+
